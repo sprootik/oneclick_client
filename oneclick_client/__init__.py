@@ -1,5 +1,5 @@
 """
-https://github.com/sprootik/py_spectrum.git
+https://github.com/sprootik/oneclick_client.git
 """
 
 from . import spectrum

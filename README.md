@@ -1,4 +1,4 @@
-## oneclick-client
+## oneclick_client
 
 ![](https://img.shields.io/badge/python-3.9-green) ![](https://img.shields.io/badge/python-3.10-green)
 
