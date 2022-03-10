@@ -17,7 +17,7 @@ See example.py for more working examples.
 
 ```python
 # import
-from py_spectrum import spectrum as sp
+from oneclick_client import spectrum as sp
 
 # initialization
 api = sp.SpectrumClient(server='https://192.168.0.1:8888',
