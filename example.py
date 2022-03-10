@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from py_spectrum import spectrum as sp
+from oneclick_client import spectrum as sp
 
 if __name__ == '__main__':
     # initialization
