@@ -1,4 +1,4 @@
-## oneclick_client
+## oneclick-client
 
 ![](https://img.shields.io/badge/python-3.9-green) ![](https://img.shields.io/badge/python-3.10-green)
 
@@ -8,7 +8,7 @@ The basic working methods are implemented, the response can be returned in json,
 ------------
 ## Installation
 ````
-pip install py_spectrum
+pip install oneclick-client
 ````
 ------------
 
