@@ -38,7 +38,7 @@ if __name__ == '__main__':
                          'val': 'test_srv_update',
                      })
 
-    # delete model 
+    # delete model
     del_model = api.delete(out_format='json', app=f"model/{mh}")
 
     # request with data in xml and output in json (python dict)
@@ -70,5 +70,4 @@ if __name__ == '__main__':
       <rs:requested-attribute id="0x110df" /> <!-- MAC Address -->
       <rs:requested-attribute id="0x82002d" /> <!-- Last verified unix timestamp  -->
     </rs:model-request>"""
-    
     asa_models = api.post(out_format='json', app='models', data=xml_request)
