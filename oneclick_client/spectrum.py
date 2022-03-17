@@ -105,7 +105,7 @@ class SpectrumClient(Logic):
         data = data
         out_format = out_format
         in_format = in_format
-        self._query(method, app, params, data, out_format, in_format)
+        return self._query(method, app, params, data, out_format, in_format)
 
     def post(self, app: str, params: dict = None, data: str = None, out_format: str = 'xml',
              in_format: str = 'xml') -> dict | BeautifulSoup:
@@ -132,7 +132,7 @@ class SpectrumClient(Logic):
         data = data
         out_format = out_format
         in_format = in_format
-        self._query(method, app, params, data, out_format, in_format)
+        return self._query(method, app, params, data, out_format, in_format)
 
     def delete(self, app: str, params: dict = None, data: str = None, out_format: str = 'xml',
                in_format: str = 'xml') -> dict | BeautifulSoup:
@@ -159,7 +159,7 @@ class SpectrumClient(Logic):
         data = data
         out_format = out_format
         in_format = in_format
-        self._query(method, app, params, data, out_format, in_format)
+        return self._query(method, app, params, data, out_format, in_format)
 
     def put(self, app: str, params: dict = None, data: str = None, out_format: str = 'xml',
             in_format: str = 'xml') -> dict | BeautifulSoup:
@@ -186,4 +186,4 @@ class SpectrumClient(Logic):
         data = data
         out_format = out_format
         in_format = in_format
-        self._query(method, app, params, data, out_format, in_format)
+        return self._query(method, app, params, data, out_format, in_format)

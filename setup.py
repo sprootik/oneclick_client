@@ -5,7 +5,7 @@ with open("README.md") as file:
 
 setuptools.setup(
     name="oneclick_client",
-    version="1.0.2",
+    version="1.0.3",
     author="sprootik",
     author_email="sprootik89@gmail.com",
     description="Simple library to use Spectrum OneClick API.",
